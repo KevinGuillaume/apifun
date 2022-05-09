@@ -1,0 +1,35 @@
+.output-box{
+    height:60vh;
+    width:70%;
+    margin:auto;
+    overflow: auto;
+    background: rgba(230, 230, 230, 0.745);
+    border-radius: 10px;
+}
+.child{
+    padding: 10px;
+}
+.search{
+    border: 0px;
+    
+    border-radius: 5px;
+    height: 40px;
+    width: 60%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #bfbfbf5a;
+}
+.search-container{
+    display:flex;
+    margin:auto;
+    justify-content: left;
+    
+}
+.button{
+    width:5%;
+    background-color:red;
+    height: 40px;
+    padding: 2px 23px 2px 30px;
+    border-radius: 10px;
+   
+}
