@@ -1,10 +1,13 @@
 .output-box{
-    height:60vh;
+   
     width:70%;
+    color:white;
+    font-size:1.2rem;
     margin:auto;
     overflow: auto;
-    background: rgba(230, 230, 230, 0.745);
-    border-radius: 10px;
+    border-bottom: 1px solid white;
+    
+    
 }
 .child{
     padding: 10px;
@@ -19,7 +22,7 @@
     outline: 0;
     background-color: #bfbfbf5a;
 }
-.search-container{
+.button-container{
     display:flex;
     margin:auto;
     margin-bottom:1%;

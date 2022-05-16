@@ -1,18 +1,20 @@
 import "./ApiSearch.css";
-import { useState} from 'react'
+import { useEffect, useState} from 'react'
 function ApiSearch(){
 
-    const [ApiRes,setApiRes] = useState([])
+    const [ApiRes,setApiRes] = useState("")
 
     //https://api.coinlore.net/api/tickers/?start=0&limit=10
+    
     const axios = require('axios').default;
 
+
     const getData = async () =>{
-        await axios.get('https://jsonplaceholder.typicode.com/users')
+        await axios.get('https://api.quotable.io/random')
         .then(function (response) {
             // handle success
-            console.log(response.data)
-            setApiRes(response.data);
+            setApiRes(response.data)
+            
         })
         .catch(function (error) {
             // handle error
@@ -40,13 +42,12 @@ function ApiSearch(){
 
     return (
         <div>
-           <div className="search-container">
-                <input className="search" placeholder="Please enter api link"></input>
-                <div className ="button" onClick={getData}>Click me</div>
+           <div className="button-container">
+                <div className ="button" onClick={getData}>Random Quote</div>
            </div>
            
            <div className="output-box">
-            
+            <div className="child">{ApiRes.content}</div>
            </div>
            
            
