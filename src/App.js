@@ -1,6 +1,7 @@
 import './App.css';
 import ApiSearch from "./Components/ApiSearch"
 import SyncVsAsync from "./Components/SyncVsAsync"
+import Promises from "./Components/Promises"
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
           <div>API</div>
         </div>
         <div className="learn-container">
-            <SyncVsAsync />
+            {/* <SyncVsAsync /> */}
+            <Promises />
+
         </div>
         
     </div>
