@@ -3,6 +3,7 @@ import { useEffect, useState} from 'react'
 function ApiSearch(){
 
     const [ApiRes,setApiRes] = useState("")
+    
 
     //https://api.coinlore.net/api/tickers/?start=0&limit=10
     

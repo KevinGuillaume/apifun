@@ -31,7 +31,9 @@
 }
 .button{
     width:5%;
-    background-color:red;
+    color: green;
+    background:white;
+    border: 1px solid white;
     height: 40px;
     padding: 2px 23px 2px 30px;
     border-radius: 10px;

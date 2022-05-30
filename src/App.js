@@ -1,13 +1,16 @@
 import './App.css';
 import ApiSearch from "./Components/ApiSearch"
+import Learn from "./Components/Learn"
 
 function App() {
   return (
     <div className="App">
-        <h1>API Cleanup</h1>
-        <h2>This App is meant to hopefully make API viewing a little bit cleaner</h2>
-        <h3>Currently it is a work in progress but what is to be added in the future is a working input field for most API links</h3>
+        <h1>Random Quote Generator</h1>
+       
+        <h3>This is a work in progress! More information is to be added continously about api's. 
+          Building this helped me learn, so I hope it helps anyone else also!</h3>
         <ApiSearch />
+        <Learn />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import "./Learn.css";
-import {useState} from 'react'
+
 function Learn(){
     
     
@@ -7,12 +7,9 @@ function Learn(){
 
     return (
         <div>
-           <div className="button-container">
-                <div className ="button" onClick={getData}>Random Quote</div>
-           </div>
-           
-           <div className="output-box">
-            <div className="child">{ApiRes.content}</div>
+           <div className="learn-container">
+               <div className="learn-title">Api Learning</div>
+             <div className="content1"></div>
            </div>
            
            
@@ -22,4 +19,4 @@ function Learn(){
 
     )
 }
-export default ApiSearch
+export default Learn
