@@ -1,6 +1,6 @@
 import './App.css';
 import ApiSearch from "./Components/ApiSearch"
-import Learn from "./Components/Learn"
+import SyncVsAsync from "./Components/SyncVsAsync"
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <h3>This is a work in progress! More information is to be added continously about api's. 
           Building this helped me learn, so I hope it helps anyone else also!</h3>
         <ApiSearch />
-        <Learn />
+        <SyncVsAsync />
     </div>
   );
 }

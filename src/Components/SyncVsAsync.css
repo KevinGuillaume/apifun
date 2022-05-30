@@ -1,0 +1,25 @@
+.learn-container{
+    background:rgba(255, 255, 255, 0.716);
+    width:70%;
+    height:60vh;
+    margin:auto;
+    margin-top:25px;
+    border-radius: 10px;
+    font-family: 'Ruda', sans-serif;
+}
+.example1{
+    background-image: url('../assets/sync.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    height:25%;
+    margin:auto;
+    width:25%;
+}
+.example2{
+    background-image: url('../assets/async.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    height:25%;
+    margin:auto;
+    width:25%;
+}
