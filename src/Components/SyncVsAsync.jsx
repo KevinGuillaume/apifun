@@ -7,8 +7,8 @@ function SyncVsAsync(){
 
     return (
         <div>
-           <div className="learn-container">
-               <div className="learn-title">Api Learning</div>
+           <div className="content-container">
+             <div className="learn-title">Api Learning</div>
              <div className="content1">Synchronous vs Asynchronous</div>
              <div className="subcontent1">
                  Synchronous code is code that begins at the top of a JS file, and executes
@@ -34,6 +34,14 @@ function SyncVsAsync(){
                 while the setTimeout is waiting to execute the function inside. So once it reaches its delay time, then it executes
                 the function, and at the time of execution, variable 'a' is already reassigned to 100.
              </div>
+{/* To Do
+-Promises
+
+-Async Await
+-fetch functions (get,post,update,delete)
+
+*/}
+             
            </div>
            
            

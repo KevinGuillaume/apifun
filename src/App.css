@@ -1,0 +1,11 @@
+.learn-container{
+    background:rgba(255, 255, 255, 0.716);
+    width:70%;
+    height:80vh;
+    margin:auto;
+    padding:1%;
+    margin-top:25px;
+    border-radius: 10px;
+    font-family: 'Ruda', sans-serif;
+    overflow: auto;
+}

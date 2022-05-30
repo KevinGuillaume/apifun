@@ -8,9 +8,18 @@ function App() {
         <h1>Random Quote Generator</h1>
        
         <h3>This is a work in progress! More information is to be added continously about api's. 
-          Building this helped me learn, so I hope it helps anyone else also!</h3>
+          Building this helped me learn, so I hope it helps anyone else also!
+        </h3>
         <ApiSearch />
-        <SyncVsAsync />
+        <div className="select">
+          <div>Synch</div>
+          <div>Promises</div>
+          <div>API</div>
+        </div>
+        <div className="learn-container">
+            <SyncVsAsync />
+        </div>
+        
     </div>
   );
 }
