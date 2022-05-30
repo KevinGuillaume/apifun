@@ -5,6 +5,7 @@ body {
   background-attachment: fixed;
   position:relative;
   animation: change 60s ease-in-out infinite;
+  font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -12,6 +13,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    background:lightgray;
+    padding:2px;
+    border-radius: 3px;
 }
 @keyframes change {
   0%{
