@@ -1,0 +1,23 @@
+.promise1{
+    background-image: url('../assets/promise1.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    height:200px;
+    margin:auto;
+    margin-top:1%;
+    width:35%;
+}
+.promise2{
+    background-image: url('../assets/promise2.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    height:200px;
+    margin:auto;
+    margin-top:1%;
+    width:40%;
+}
+.content1{
+    margin: 2%;
+    font-size:1.1rem;
+    font-weight:400
+}

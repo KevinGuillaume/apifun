@@ -8,7 +8,7 @@ function SyncVsAsync(){
     return (
         <div>
            <div className="content-container">
-             <div className="learn-title">Api Learning</div>
+             
              <div className="content1">Synchronous vs Asynchronous</div>
              <div className="subcontent1">
                  Synchronous code is code that begins at the top of a JS file, and executes
