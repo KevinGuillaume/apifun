@@ -1,6 +1,6 @@
-# Api Output Cleaner
+# Api Learning Resource
 
-This project is meant to make api output look a bit easier to follow. Helps visualize the output!
+This project is meant to teach basic API concepts through the use of an API in app.
 
 Stack: ReactJs,HTML/CSS, Javascript, Axios
 
