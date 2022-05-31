@@ -2,7 +2,7 @@
 
 This project is meant to make api output look a bit easier to follow. Helps visualize the output!
 
-Stack: ReactJs,HTML/CSS, Javascript, Axios and any api links you want!
+Stack: ReactJs,HTML/CSS, Javascript, Axios
 
 
 Notes: I orginially started fetching API data with Javascript built in fetch() function, but i'm going to switch over to axios.
