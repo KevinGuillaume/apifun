@@ -7,6 +7,45 @@
     margin-top:25px;
     border-radius: 10px;
     font-family: 'Open Sans', sans-serif;
-
     overflow: auto;
+}
+.select{
+    display:flex;
+    background:rgba(255, 255, 255, 0.716);
+    width:fit-content;
+    justify-content: space-between;
+    padding:1%;
+    border-radius: 10px;
+    margin:auto;
+    margin-top:1%;
+}
+.option1{
+    padding:5px;
+    width:100px;
+    margin:auto;
+    text-align: center;
+}
+.option2{
+    padding:5px;
+    width:100px;
+    margin:auto;
+    text-align: center;
+}
+.option3{
+    padding:5px;
+    width:100px;
+    margin:auto;
+    text-align: center;
+}
+.option1:hover{
+    background:rgba(249, 249, 249, 0.741);
+    border-radius:7px;
+}
+.option2:hover{
+    background:rgba(249, 249, 249, 0.741);
+    border-radius:7px;
+}
+.option3:hover{
+    background:rgba(249, 249, 249, 0.741);
+    border-radius:7px;
 }

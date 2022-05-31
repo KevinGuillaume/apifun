@@ -34,8 +34,26 @@ function SyncVsAsync(){
                 while the setTimeout is waiting to execute the function inside. So once it reaches its delay time, then it executes
                 the function, and at the time of execution, variable 'a' is already reassigned to 100.
              </div>
+             <div className="content1">Async Await</div>
+             <div className="subcontent1">
+                 When writing code, certain functions can be started with the keyword <code>async</code> which 
+                 tells javascript that the function has asynchronous properties. Using this keyword can make it easier to
+                interact with promise objects (looks a lot cleaner too!). But it is important to pair the keyword with another one: <code>await</code>.
+                <code>await</code> lets us know that we want to wait for the response from the promise. Now error handling can become slightly
+                different, but the main thing to note is to use a <code>try{} catch{} </code> block. In the example below, you can
+                see how simplified the code becomes using the two keywords, especially in cases with chained <code>.then()</code>s.
+             </div>
+             <div className="example3"></div>
+             <div className="subcontent1">
+                Now using async await keywords, interacting with the promise becomes a bit more recognizable. 
+             </div>
+             <div className="example4"></div>
+             <div className="subcontent1">
+                In this application, async await was used for API calls as well. For the function that makes an API call,
+                it is preceeded by a <code>async</code> keyword. And just like the example, the response also has an <code>await</code>
+                keyword as well. 
+             </div>
 {/* To Do
--Promises
 
 -Async Await
 -fetch functions (get,post,update,delete)

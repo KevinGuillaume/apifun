@@ -5,6 +5,8 @@
     background-repeat: no-repeat;
     height:100px;
     margin:auto;
+    margin-top:1%;
+    margin-bottom:1%;
     width:25%;
 }
 .example2{
@@ -13,10 +15,32 @@
     background-repeat: no-repeat;
     height:150px;
     margin:auto;
+    margin-top:1%;
+    margin-bottom:1%;
     width:35%;
+}
+.example3{
+    background-image: url('../assets/notasyncawait.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    height:400px;
+    margin:auto;
+    margin-top:1%;
+    margin-bottom:1%;
+    width:60%;
+}
+.example4{
+    background-image: url('../assets/asyncawait.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    height:200px;
+    margin:auto;
+    margin-top:1%;
+    margin-bottom:1%;
+    width:60%;
 }
 .content1{
     margin: 2%;
     font-size:1.1rem;
-    font-weight:400
+    font-weight:400;
 }

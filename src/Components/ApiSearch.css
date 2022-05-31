@@ -1,9 +1,7 @@
 .output-box{
-   
-    width:70%;
+    width:60%;
     color:white;
-    font-size:1.2rem;
-    margin:auto;
+    font-size:1rem;
     overflow: auto;
     border-bottom: 1px solid white;
     
@@ -17,20 +15,17 @@
     
     border-radius: 5px;
     height: 40px;
-    width: 60%;
+    width: 50%;
     padding: 2px 23px 2px 30px;
     outline: 0;
     background-color: #bfbfbf5a;
 }
 .button-container{
-    display:flex;
-    margin:auto;
-    margin-bottom:1%;
     justify-content: center;
-    
+    font-size:.9rem;
 }
 .button{
-    width:5%;
+    width:fit-content;
     color: green;
     background:white;
     border: 1px solid white;
@@ -39,4 +34,9 @@
     border-radius: 10px;
     margin-left:1%;
    
+}
+.search-container{
+    display: flex;
+    margin:auto;
+    justify-content: center;
 }
