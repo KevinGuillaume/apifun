@@ -5,6 +5,9 @@
     width:100%;
     margin-bottom: 3%;
 }
+.App{
+    animation: transitionIn .7s;
+}
 
 .learn-container{
     background:rgba(255, 255, 255, 0.716);
@@ -26,34 +29,60 @@
     border-radius: 10px;
     margin:auto;
     margin-top:1%;
+   
+    
 }
 .option1{
+    border-radius:7px;
     padding:5px;
     width:100px;
     margin:auto;
     text-align: center;
+    margin-right:5px;
+    transition: .3s;
 }
 .option2{
+    border-radius:7px;
     padding:5px;
+    transition: 10s;
     width:100px;
     margin:auto;
     text-align: center;
+    margin-right:5px;
+    transition: .3s;
+    
 }
 .option3{
+    border-radius:7px;
     padding:5px;
     width:100px;
     margin:auto;
     text-align: center;
+    transition: .3s;
 }
 .option1:hover{
-    background:rgba(249, 249, 249, 0.741);
-    border-radius:7px;
+    background-color:rgba(249, 249, 249, 0.741);
 }
 .option2:hover{
     background:rgba(249, 249, 249, 0.741);
-    border-radius:7px;
+    
 }
 .option3:hover{
     background:rgba(249, 249, 249, 0.741);
-    border-radius:7px;
+   
 }
+.active{
+    background:rgba(249, 249, 249, 0.741);
+}
+/* Page click render animation */
+@keyframes transitionIn {
+    from{
+      opacity: 0;
+      transform:rotateX(-10deg)
+    }
+    to{
+      opacity:1;
+      transform:rotateX(0)
+
+    }
+  }

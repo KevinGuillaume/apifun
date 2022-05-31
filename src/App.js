@@ -41,9 +41,9 @@ function App() {
         </div>
         <ApiSearch />
         <div className="select">
-          <div className="option1" onClick={() => displayOption('sync')}>Synchronous</div>
-          <div className="option2" onClick={() => displayOption('promise')}>Promises</div>
-          <div className="option3">API</div>
+          <div className={`option1 ${showSync ? "active" : ""}`} onClick={() => displayOption('sync')}>Synchronous</div>
+          <div className={`option2 ${showPromise ? "active" : ""}`} onClick={() => displayOption('promise')}>Promises</div>
+          <div className={`option3 ${false ? "active" : ""}`}>API</div>
         </div>
         <div className="learn-container">
             {showSync ? <SyncVsAsync /> : <div></div>}

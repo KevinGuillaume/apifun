@@ -44,3 +44,18 @@
     font-size:1.1rem;
     font-weight:400;
 }
+.content-container{
+    animation: transitionIn 1s;
+}
+/* Page click render animation */
+@keyframes transitionIn {
+    from{
+      opacity: 0;
+      transform:rotateX(-10deg)
+    }
+    to{
+      opacity:1;
+      transform:rotateX(0)
+
+    }
+  }
