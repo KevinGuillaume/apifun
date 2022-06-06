@@ -1,6 +1,8 @@
 # Api Learning Resource
 
 This project is meant to teach basic API concepts through the use of an API in app.
+It goes over concepts like Promises, Async Await, Synchronous vs Asynchronous, and 
+Will also explain API methods(get,update,etc)
 
 Stack: ReactJs,HTML/CSS, Javascript, Axios
 
