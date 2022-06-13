@@ -4,6 +4,8 @@ This project is meant to teach basic API concepts through the use of an API in a
 It goes over concepts like Promises, Async Await, Synchronous vs Asynchronous, and 
 Will also explain API methods(get,update,etc)
 
+*Feel free to ask for other content on API's!* 
+
 Stack: ReactJs,HTML/CSS, Javascript, Axios
 
 
