@@ -23,7 +23,7 @@ function SyncVsAsync(){
              <div className="subcontent1">
                  The expected output of the above code would result in a 0 followed by a 1.
                   This is how synchronous code runs, top to bottom. But, to better understand asynchronous
-                   functions, we can use the <code>setTimeout()</code> function. This functions takes to parameters 
+                   functions, we can use the <code>setTimeout()</code> function. This functions takes two parameters 
                    where the first is a function, and the second is a certain amount of time to delay until the function is called.
                    Now if we were to add this function to the code above, the output is slightly different.
              </div>
