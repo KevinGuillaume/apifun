@@ -11,7 +11,7 @@ function ApiSearch(){
 
 
     const getData = async () =>{
-        await axios.get('https://api.quotable.io/random')
+        await axios.get(`https://api.quotable.io/random`)
         .then(function (response) {
             // handle success
             setApiRes(response.data)
