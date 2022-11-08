@@ -2,11 +2,13 @@ import './App.css';
 import ApiSearch from "./Components/ApiSearch"
 import SyncVsAsync from "./Components/SyncVsAsync"
 import Promises from "./Components/Promises"
+import API from './Components/API';
 import { useState } from 'react';
 
 function App() {
 
   const [showSync,setShowSync] = useState(false);
+  const [showAPI,setShowAPI] = useState(false);
   const [showPromise,setShowPromise] = useState(false);
 
   /* 
@@ -15,17 +17,18 @@ function App() {
   function displayOption(choice) {
     //reset all options
     setShowSync(false);
-    setShowPromise(false);   
+    setShowPromise(false);
+    setShowAPI(false);   
 
     //
-    if(choice == 'sync'){
+    if(choice === 'sync'){
         setShowSync(true)
       }
-      else if(choice =='promise'){
+      else if(choice ==='promise'){
         setShowPromise(true)
       }
-      else{
-        console.log('None')
+      else if(choice === 'api'){ 
+        setShowAPI(true);
       }
   }
 
@@ -43,11 +46,12 @@ function App() {
         <div className="select">
           <div className={`option1 ${showSync ? "active" : ""}`} onClick={() => displayOption('sync')}>Synchronous</div>
           <div className={`option2 ${showPromise ? "active" : ""}`} onClick={() => displayOption('promise')}>Promises</div>
-          <div className={`option3 ${false ? "active" : ""}`}>API</div>
+          <div className={`option3 ${showAPI ? "active" : ""}`} onClick={() => displayOption('api')}>API</div>
         </div>
         <div className="learn-container">
             {showSync ? <SyncVsAsync /> : <div></div>}
             {showPromise ? <Promises /> : <div></div>}
+            {showAPI ? <API /> : <div></div>}
             
             
            
